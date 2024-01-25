@@ -1,0 +1,62 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,200&display=swap');
+
+/* Define CSS Variables */
+:root {
+  --primary-color: #529AB0;
+  --secondary-color: #6D9DC5;
+  --accent1-color: #00916E;
+  --accent2-color: #37979A;
+
+  --heading-font: 'Brush Script MT', serif;
+  --paragraph-font: 'Arial Black', serif;
+
+  --nav-background-color: #4c8a7d;
+  --nav-link-color: #049271;
+  --nav-hover-link-color: #519AAF;
+  --nav-hover-background-color: #079274;
+}
+
+/* Body, Header, Paragraph, and Navigation Selectors */
+body, header, p, nav {
+  padding: 15px;
+}
+
+/* Body and Paragraph Selectors */
+body, p {
+  font-family: var(--paragraph-font);
+}
+
+/* Body Selector */
+body {
+  max-width: 960px;
+}
+
+/* Headings Grouping Selector */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Header Selector */
+header {
+  background-color: var(--secondary-color);
+}
+
+/* Navigation Selector and Anchor Tag Children */
+nav {
+  background-color: var(--nav-background-color);
+}
+
+nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+/* reference cooment*/
+https://githubmarcelokoh.github.io/wdd130/wwr/site-plan-rafting.html 
+https://githubmarcelokoh.github.io/wdd130/wwr/styles/site-plan-rafting.css
