@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  main img.profile {
+    float: right;
+    margin-left: 1rem; /* Optional, for better spacing */
+  }
+  
+  aside {
+    width: 20em;
+    text-align: center;
+    position: relative; /* Add this for absolute positioning of heading */
+  }
+  
+  aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+  }
+  
+  /* Class Selectors */
+  .box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+  }
+  
