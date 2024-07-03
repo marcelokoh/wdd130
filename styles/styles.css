@@ -17,47 +17,47 @@ h1 {
     color: steelblue;
 }
 img {
-    width: 150px;
+    width: 80px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 2px;
+    padding: 3px;
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    padding: 5px;
 }
 main {
-  max-width: 840px;
+  max-width: 700px;
 }
 aside {
-  width: 20rem;
-  text-align: center;
+  width: 30rem;
+  text-align: left;
   position:  relative; /* Add this for absolute positioning of heading */
 }
 aside h2 {
-  position: absolute;
-  top: 47px;
-  left: 150px;
+  position: relative;
+  top: 3px;
+  left: 5px;
 }
 aside img {
-  width: 200px;
+  width: 100px;
   height: auto;
 }
 main img.profile {
   float: right;
-  margin-left: 1rem;  /* Optional, for better spacing */
-  width: 150px;
+  margin-left: 3rem;  /* Optional, for better spacing */
+  width: 50px;
   height: auto;
 }
 p { padding: 0;}
 footer {
   margin-top: 15px;
   border-top: 1px solid #000;
-  text-align: center;
+  text-align: left;
 }
 /* Class Selectors */
 .box {
-  margin: 1rem;
+  margin: 2rem;
   border: 1px solid rgba(0, 0, 0, .1);
   padding: 1rem;
   background-color: #ddd;
